@@ -10,7 +10,7 @@ terraform {
 
 locals {
 
-  region          = "ap-south-1"
+  region          = "ap-southeast-2"
   name            = "qualibytes-eks-cluster"
   vpc_cidr        = "10.0.0.0/16"
   azs             = ["ap-southeast-2a", "ap-southeast-2b"]
